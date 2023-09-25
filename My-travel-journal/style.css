@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    color: #2B283A;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.navbar {
+    font-size: 14px;
+    color: #fff;
+    background: #F55A5A;
+    letter-spacing: -1.085px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;    
+}
+
+.nav-icon {
+    padding-right: 7px;
+}
+
+.card-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-right: 19px;
+    
+}
+
+.main-card {
+    display: flex;
+    padding: 45px;
+    max-width: 478px;
+    margin: auto;
+}
+
+.card-content {
+    font-size: 10px;
+    display: flex ;
+    flex-direction: column;    
+}
+
+.card-content h2 {
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+
+
+.card-location {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.card-country {
+    
+    padding-right: 12px;
+    padding-left: 4px;
+    letter-spacing: 1.741px;
+}
+
+.card-date {
+    font-weight: 700;
+}
+
+.card-location-link{
+    color: #918E9B;
+    text-decoration-line: underline;
+}
